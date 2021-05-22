@@ -2,7 +2,7 @@
 ## Welcome
 This is my contribution to the Super Phoenix PCB.
 
-This is based around the ESP32-C3 processor from Espressif.  It is a successor to the popular ESP8266 Espressif.
+This is based around the ESP32-C3 processor from Espressif.  It is a successor to the popular ESP8266.
 
 You can check out the [ESP32-C3 Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf)
 
