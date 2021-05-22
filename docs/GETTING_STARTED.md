@@ -12,7 +12,7 @@ Follow the Linux Entries in the following Steps:  (https://docs.espressif.com/pr
 For **Step 6. Connect Your Device** WSL1 automatically maps Windows COM ports.  For example, COM3 gets mapped to /dev/ttyS3
 After plugging in the USB Cable, use Device Manager and verify under Ports (COM & LPT) you have an entry that says "Silicon Labs CP210x USB to UART Bridge (COM<X>)
 
-For **Step 7. Configure** there is nothing to configure for either the *hello_world* or *blinky* example.  In menuconfig, just [S]ave and [Q]uit.
+For **Step 7. Configure** there is nothing to configure for either the *hello_world* or *blink* example.  In menuconfig, just [S]ave and [Q]uit.
 
 For **Step 9. Flash onto the Device** You'll need to lower the BAUD rate from the default of 460,800.  I found that 19,200 to 230,400 worked.  (Note: the CP210x supports up to 3Mbps and the ESP32-C3 supports up to 5Mbps.  So it's a bit unclear why you need to set such a slow BAUD rate.)
 In my system, the board identified as COM3, and the following command worked:  **idf.py -p /dev/ttyS3 flash -b 230400**
