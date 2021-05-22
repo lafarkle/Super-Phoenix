@@ -17,4 +17,4 @@ For **Step 7. Configure** there is nothing to configure for either the *hello_wo
 For **Step 9. Flash onto the Device** You'll need to lower the BAUD rate from the default of 460,800.  I found that 19,200 to 230,400 worked.  (Note: the CP210x supports up to 3Mbps and the ESP32-C3 supports up to 5Mbps.  So it's a bit unclear why you need to set such a slow BAUD rate.)
 In my system, the board identified as COM3, and the following command worked:  **idf.py -p /dev/ttyS3 flash -b 230400**
   
-Espressif supports VS Code integration.  You can read up on that here: (https://github.com/espressif/vscode-esp-idf-extension).  There is a nice video here: (https://www.youtube.com/watch?v=Lc6ausiKvQM)  I was not able to figure out how to Flash from VS Code.
+Espressif supports VS Code integration.  You can read up on how you develop linking VS Code and WSL here: (https://code.visualstudio.com/docs/remote/wsl)  You can read up on Espressif's VS Code integration here: (https://github.com/espressif/vscode-esp-idf-extension).  There is a nice video here: (https://www.youtube.com/watch?v=Lc6ausiKvQM)  I was not able to figure out how to Flash from VS Code.
