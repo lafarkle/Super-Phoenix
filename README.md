@@ -14,6 +14,4 @@ The easiest way to run the board is to plug it into a Solderless Breadboard and 
 
 You can see the most basic setup here: [ESP32-C3 Breadboard](https://github.com/lafarkle/Super-Phoenix/blob/main/docs/esp32-c3-first-flash.png)
 
-You can see the Hardware Reference Manual here: [ESP32-C3-DevKitM-1](https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/hw-reference/esp32c3/user-guide-devkitm-1.html)
-
 You can see what you need to get started here:  [GETTING_STARTED](https://github.com/lafarkle/Super-Phoenix/blob/main/docs/GETTING_STARTED.md)
