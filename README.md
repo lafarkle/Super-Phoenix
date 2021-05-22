@@ -8,7 +8,7 @@ You can check out the [ESP32-C3 Datasheet](https://www.espressif.com/sites/defau
 
 This project specifically uses the [ESP32-C3-DevKitM-1](https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/hw-reference/esp32c3/user-guide-devkitm-1.html).  You can check out the module [schematic](https://dl.espressif.com/dl/schematics/SCH_ESP32-C3-DEVKITM-1_V1_20200915A.pdf)
 
-You can order them from [Digikey](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-C3-DEVKITM-1/13684315) or [Mouser](https://www.mouser.com/ProductDetail/Espressif-Systems/ESP32-C3-DevKitM-1?qs=%2Fha2pyFadugxHGixwoNRgyjoJM2GQZovR%2FjTmjaiFq6LaZpmhjW939ll5bKcpIjO).  Digikey has had better stock availability.  If you find some in stock, you should order them right away.
+You can order them from [Digikey](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-C3-DEVKITM-1/13684315) or [Mouser](https://www.mouser.com/ProductDetail/Espressif-Systems/ESP32-C3-DevKitM-1?qs=%2Fha2pyFadugxHGixwoNRgyjoJM2GQZovR%2FjTmjaiFq6LaZpmhjW939ll5bKcpIjO).  Digikey has had better stock availability.  If you find some in stock, you should order them right away.  Mouser hasn't had stock yet, and Digikey's last batch of 50 sold out in under 24 hours.
 
 The easiest way to run the board is to plug it into a Solderless Breadboard and power it through a Micro USB connection, which serves as the flashing and Console port as well.  The ESP32-C3-DevKitM-1 has a USB to UART [CP2102N](https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf) capable of controlling the Boot and Reset Push Buttons through the DTR and RTS lines.
 
