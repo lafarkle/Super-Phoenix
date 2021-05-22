@@ -6,7 +6,7 @@ This is based around the ESP32-C3 processor from Espressif.  It is a successor t
 
 You can check out the [ESP32-C3 Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf)
 
-This project specifically uses the [ESP32-C3-DevKitM-1](https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/hw-reference/esp32c3/user-guide-devkitm-1.html).
+This project specifically uses the [ESP32-C3-DevKitM-1](https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/hw-reference/esp32c3/user-guide-devkitm-1.html).  You can check out the module (schematic)[https://dl.espressif.com/dl/schematics/SCH_ESP32-C3-DEVKITM-1_V1_20200915A.pdf]
 
 You can order them from [Digikey](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-C3-DEVKITM-1/13684315) or [Mouser](https://www.mouser.com/ProductDetail/Espressif-Systems/ESP32-C3-DevKitM-1?qs=%2Fha2pyFadugxHGixwoNRgyjoJM2GQZovR%2FjTmjaiFq6LaZpmhjW939ll5bKcpIjO).  Digikey has had better stock availability.  If you find some in stock, you should order them right away.
 
