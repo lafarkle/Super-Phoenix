@@ -8,6 +8,8 @@ This is compiled under the Windows Subsystem for Linux.
 
 The reason you don't want to upgrade to WSL2 is because they don't have USB COM port integration.  You can read up on that here: (https://docs.microsoft.com/en-us/windows/wsl/wsl2-faq).  If you are using WSL2, you can in theory use this protocol anyways: (https://matevarga.github.io/esp32/m5stack/esp-idf/wsl2/2020/05/31/flashing-esp32-under-wsl2.html)
 
+You may also be able to make it work from these instructions: (https://github.com/espressif/vscode-esp-idf-extension/blob/master/docs/WSL.md)
+
 It's relatively easy to switch between WSL1 and WSL2.  You can find instructions here: (https://winaero.com/set-linux-distro-version-to-wsl-1-or-wsl-2-in-windows-10)
 
 ## Compiling the Firmware
